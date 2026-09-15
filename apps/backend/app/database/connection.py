@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import DeclarativeBase, sessionmaker
 
 
-DATABASE_URL = "postgresql+psycopg://postgres:root@localhost:5432/booking"
+DATABASE_URL = "postgresql+psycopg://postgres:root@localhost:5432/dailtable"
 
 engine = create_engine(DATABASE_URL)
 
